@@ -525,7 +525,7 @@ export default function Operations() {
                 <div className="p-4 rounded-lg bg-purple-500/10 border border-purple-500/20">
                   <div className="font-medium mb-2">Reduce Gaps</div>
                   <p className="text-sm text-muted-foreground mb-3">
-                    32 students have >1 hour gaps between classes
+                    32 students have more than 1 hour gaps between classes
                   </p>
                   <div className="flex items-center justify-between">
                     <Badge variant="outline" className="bg-purple-500/10">

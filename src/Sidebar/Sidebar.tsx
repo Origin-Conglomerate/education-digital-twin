@@ -40,7 +40,10 @@ import {
   BookOpen,
   BookA,
   Workflow,
-  Brain
+  Brain,
+  UserCircle,
+  Wand2,
+  Glasses
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -160,6 +163,14 @@ export default function AppSidebar() {
         {
           title: "Analytics",
           url: "/ai-analytics"
+        },
+        {
+          title: "Personal Tutor",
+          url: "/personal-tutor"
+        },
+        {
+          title: "Content Studio",
+          url: "/ai-content-studio"
         },
       ]
     },

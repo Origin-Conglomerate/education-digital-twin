@@ -11,6 +11,8 @@ import FacultyStaff from "./EducationDigitalTwin/FacultyStaff/FacultyStaff"
 import AIAnalytics from "./EducationDigitalTwin/AIAnalytics/AIAnalytics"
 import Academics from "./EducationDigitalTwin/Academics/Academics"
 import Operations from "./EducationDigitalTwin/Operations/Operations"
+import PersonalTutor from "./EducationDigitalTwin/PersonalTutor/PersonalTutor"
+import AIContentStudio from "./EducationDigitalTwin/AIContentStudio/AIContentStudio"
 
 function App() {
 
@@ -23,14 +25,16 @@ function App() {
             <Route path="/agentic-ai" element={<AgenticAI />} />
             <Route path="/log-monitor" element={<LogMonitor />} />
             <Route path="/ai-analytics" element={<AIAnalytics />} />
+            <Route path="/personal-tutor" element={<PersonalTutor />} />
+            <Route path="/ai-content-studio" element={<AIContentStudio />} />
             {/* <Route path="/profile" element={<Profile />} /> */}
              <Route path="/students" element={<Students />} />
             <Route path="/courses-classes" element={<CoursesClasses />} />
              <Route path="/faculty-staff" element={<FacultyStaff />} />
             <Route path="/finance" element={<Finance />} />
             <Route path="/academics" element={<Academics />} />
-            <Route path="/operations" element={<Operations />} /> 
-            <Route path="/physical-twin" element={<PhysicalTwin />} /> 
+            <Route path="/operations" element={<Operations />} />
+            <Route path="/physical-twin" element={<PhysicalTwin />} />
           </Route>
         </Routes>
       </BrowserRouter>
